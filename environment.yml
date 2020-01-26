@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - weiyan
 dependencies:
+  - python=3.5
   - numpy
   - psutil
   - toolz
