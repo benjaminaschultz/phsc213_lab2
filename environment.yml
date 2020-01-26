@@ -4,11 +4,13 @@ channels:
   - weiyan
 dependencies:
   - numpy
-  - scikit-audiolab
   - psutil
   - toolz
   - matplotlib
-  - pandas
   - partd
   - bokeh
+  - libsndfile
   - dask
+  - pip
+  - pip:
+    - scikits.audiolab
