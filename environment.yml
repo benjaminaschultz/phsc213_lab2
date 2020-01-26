@@ -1,8 +1,10 @@
 name: example-environment
 channels:
   - conda-forge
+  - weiyan
 dependencies:
   - numpy
+  - scikit-audiolab
   - psutil
   - toolz
   - matplotlib
