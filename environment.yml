@@ -11,4 +11,4 @@ dependencies:
   - partd
   - bokeh
   - dask
-  - scikits.audiolab
+  - scikit-audiolab
