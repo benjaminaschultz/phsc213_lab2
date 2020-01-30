@@ -1,17 +1,13 @@
 name: example-environment
 channels:
   - conda-forge
-  - weiyan
 dependencies:
-  - python=2.7
   - numpy
+  - scipy
+  - pysoundfile
   - psutil
   - toolz
   - matplotlib
   - partd
   - bokeh
-  - libsndfile
-  - dask
   - pip
-  - pip:
-    - scikits.audiolab
