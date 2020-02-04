@@ -5,9 +5,4 @@ dependencies:
   - numpy
   - scipy
   - pysoundfile
-  - psutil
-  - toolz
   - matplotlib
-  - partd
-  - bokeh
-  - pip
