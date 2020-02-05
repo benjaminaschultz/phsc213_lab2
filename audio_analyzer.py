@@ -374,7 +374,7 @@ def full_analysis(selected_instrument, student_name, t0=0, t1=None, rel_height=0
     )
     show_signal_buildup_from_components(
         **results['analysis'],
-        filename_base=student_name
+        filename_base='_'.join(student_name, selected_instrument)
     )
 
 
